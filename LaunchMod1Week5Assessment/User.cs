@@ -39,10 +39,17 @@ namespace LaunchMod1Week5Assessment
                 Password = password;
             }
 
+            
+        }
+        /*seperated the second if statement to return 
+         confirmation of password creation*/
+        public string Confirmation()
+        { var confirmation = ("");
             if (Password != null)
             {
-                var confirmation = "Password Created";
+                confirmation = "Password Created";
             }
+            return confirmation;        
         }
 
         public string LogIn(string password)
