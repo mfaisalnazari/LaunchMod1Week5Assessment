@@ -2,23 +2,23 @@
 
 ## Questions (10 Points Possible)
 1. What would happen if you try to use a variable that is not in scope?
-
+We would get a compiler error stating that the var is not accessible.
 2. Describe the three As of a test:  
-A -   
-A -   
-A -   
+A -   Arrange
+A -   Act
+A -   Assert
 
 3. What is the difference between `public` and `private` access modifiers?
-
+  In public access modifier the code is accessible by all classes but in Private access modifier the code is only accessible from within the same class.
 4. A method should:  (**Select all that apply**) <br/>
 (A) Make changes to an object  
 (B) Return some information about an object  
 (C) Make changes to an object and return information about the object.  
-(D) None of the Above.  
+(D) None of the Above.  (this or a and b separately.)
 
 
 5. How did you determine what to answer for the question above?
-
+a method should either make changes or return information, it can do both but thats not a good method and and not the recommended way.
 ## Exercise (10 Points Possible)
 
 Clone your forked copy of this repository into Visual Studio.  
